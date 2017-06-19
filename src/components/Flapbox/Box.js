@@ -13,8 +13,9 @@ class Box extends Component {
   }
   render () {
     const style = _.extend({}, {
-      height: 130,
-      width: 130,
+      height: '140px',
+      width: '140px',
+      marginLeft: '10px',
       backgroundColor: this.props.underneath ? 'none' : COLOR_BLACK,
       textAlign: 'center',
       fontSize: 80,

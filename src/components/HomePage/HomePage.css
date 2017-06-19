@@ -1,0 +1,41 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-view {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.content {
+  width: 200px;
+}
+
+.content > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.link-container {
+  width: 200px;
+  
+  background-color: 'red';
+}
+
+.links {
+  color: #000;
+}
+
+body {
+  margin: 0
+}

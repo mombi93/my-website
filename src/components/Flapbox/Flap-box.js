@@ -115,10 +115,13 @@ class FlapBox extends Component {
     const imageStyle = {
       borderRadius: '5%',
       backgroundSize: 'cover',
+      height: '140px',
+      width: '140px',
+      margin: 'auto',
     };
     return (
       <Box underneath={true}>
-        <img style={imageStyle} src={Muhammad} role="presentation" height="130px" width="130px"/>
+        <img style={imageStyle} src={Muhammad} role="presentation" />
       </Box>
     );
   }

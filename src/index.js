@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'velocity-animate';
-import 'velocity-animate/velocity.ui';
-import App from './App';
-import './index.css';
+import HomePage from './components/HomePage';
 
 ReactDOM.render(
-  <App />,
+  <HomePage />,
   document.getElementById('root')
 );
