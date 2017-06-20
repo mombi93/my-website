@@ -28,12 +28,19 @@
 
 .link-container {
   width: 200px;
-  
+  height: 40px;
   background-color: 'red';
 }
 
 .links {
   color: #000;
+  border-radius: 50px;
+  -webkit-transition: font-size 0.5s; 
+  transition: font-size 0.5s;
+}
+
+.links:hover {
+  font-size: 18px;
 }
 
 body {

@@ -98,7 +98,9 @@ class FlapBox extends Component {
     };
 
     const logoStyle = {
-      paddingTop: '15%',
+      float: 'right',
+      margin: '30% 5% 0 0',
+      fontFamily: 'cursive',
     };
 
     return (

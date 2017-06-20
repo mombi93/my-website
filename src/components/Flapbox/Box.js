@@ -2,6 +2,7 @@
 
 import _ from 'lodash';
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 const COLOR_BLACK = '#000';
 
 class Box extends Component {
@@ -61,9 +62,9 @@ Box.defaultProps = {
 };
 
 Box.propTypes = {
-  style: React.PropTypes.object,
-  underneath: React.PropTypes.bool,
-  instruction: React.PropTypes.string,
+  style: PropTypes.object,
+  underneath: PropTypes.bool,
+  instruction: PropTypes.string,
 };
 
 export default Box;
